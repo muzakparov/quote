@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+#quote {
+    background-color: #eee;/*Fallback background-color*/
+    background: #A1FFCE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #0000FF;
+    min-height: 250px;
+    width: 60%;
+    margin:0 auto;
+    padding-top:20px;
+    border:2px solid #4DFFFF;
+    border-radius: 10px;
+  }
+
+#quote .quote {  
+  text-align: center;
+    width: 500px;
+    margin: 30px auto;
+    height: auto;
+}
+
+#quote .rand-quote{
+  font-size:20pt;
+}
+
+#quote .fa {
+  font-size: 20px;
+}
+
+#quote .author {
+  font-size: 14pt;
+  text-align: right;
+}
+
+
+#quote .button-container {
+  margin: 40px 100px 0 100px;
+  padding-bottom:20px;
+}
+
+#quote .btn {
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 10px 12px;
+  text-align: center;
+  color: white;
+  opacity: 1;
+}
+
+#quote .btn:hover {
+  background-color: #57cbf2;
+  color: white;
+  opacity: 0.9;
+}
+
+#quote .back-color {
+  background-color: #57CAF2;
+}
+
+#quote .fa-tumblr {
+  padding: 0 4px;
+}
